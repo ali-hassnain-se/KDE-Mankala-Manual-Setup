@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: none
+
+# CMake
+/build*/
+/cmake-build*
+.cmake/
+/lib/
+compile_commands.json
+/include/mankalaengine/mankalaengine_export.h
+src/mankalaengine_export.h
+
+# Clang
+.clangd
+.clang-format-bin
+.clang-tidy-bin
+.lintbin
+.clangd/
+.cache/
+
+# Editors
+.dir-locals.el
+.vscode/
+
+# MacOS
+.DS_Store
